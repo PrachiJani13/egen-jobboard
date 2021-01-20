@@ -1,0 +1,53 @@
+.card__wrapper {
+  position: relative;
+  margin: 2rem;
+}
+
+.card__logo {
+  position: absolute;
+  top: -1.7rem;
+  left: 2rem;
+}
+
+.card__logo > img {
+  height: 3rem;
+  width: 6.5rem;
+}
+.card__main {
+  width: 23rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.2rem 2rem 0rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card__main__dark {
+  background-color: #19212d;
+}
+
+.card__job__type {
+  display: flex;
+  color: silver;
+}
+
+.card__item {
+  margin-bottom: 0.8rem;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card__company {
+  color: silver;
+}
+
+.card__location {
+  color: #5865e0;
+  justify-self: flex-end;
+  margin-top: 1.7rem;
+}

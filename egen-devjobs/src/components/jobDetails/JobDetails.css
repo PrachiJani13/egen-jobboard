@@ -1,0 +1,123 @@
+.job__details__main {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f5f6f8;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.job__details__main__dark {
+  background-color: #131822;
+}
+
+.job__details__header {
+  display: flex;
+  height: 6rem;
+  width: 40rem;
+  background-color: white;
+  position: absolute;
+  top: -1.8rem;
+  justify-content: space-between;
+}
+
+.job__details__header__dark {
+  background-color: #19212d;
+}
+
+.job__details__logo {
+  display: flex;
+}
+
+.job__details__logo > img {
+  height: 6rem;
+  width: 5.5rem;
+}
+
+.job__details__company {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  justify-content: center;
+}
+
+.job__details__companyname {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.job__details__companyurl {
+  color: grey;
+}
+
+.job__details__companysite {
+  text-decoration: none;
+  margin-right: 1.5rem;
+  align-self: center;
+  font-size: 14px;
+  background-color: #f6f6f9;
+  padding: 0.5rem;
+  color: #5865e0;
+}
+
+.job__details__body {
+  width: 40rem;
+  background-color: white;
+  margin-top: 7rem;
+  padding: 2rem;
+}
+
+.job__details__body__dark {
+  background-color: #19212d;
+}
+
+.job__details__body__time {
+  color: silver;
+  display: flex;
+}
+
+.job__details__body__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job__details__body__location {
+  display: flex;
+  flex-direction: column;
+}
+
+.job__details__body__location__title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.job__details__body__location__city {
+  color: #5865e0;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.job__details__apply__now {
+  color: white;
+  background-color: #5865e0;
+  outline: none;
+  border: none;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  height: 2.5rem;
+}
+
+.job__details__body__description {
+  margin-top: 1rem;
+}
+
+.job__details__body__description p {
+  padding: 0.2rem 0rem;
+}
+
+.job__details__body__description ul {
+  list-style: none;
+}
