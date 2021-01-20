@@ -1,0 +1,23 @@
+.select__main {
+  width: 20rem;
+  height: 3.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.select__main > p {
+  font-weight: bold;
+}
+
+.select__main > button {
+  height: 2.5rem;
+  width: 7rem;
+  background-color: #5865e0;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
